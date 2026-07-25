@@ -1,0 +1,6 @@
+{
+  "name": "Minerax Engineering",
+  "description": "Dark-themed, technical homepage for Minerax, a steel casting engineering company.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
