@@ -32,12 +32,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-white flex items-center justify-center rounded-sm">
-            <span className="font-display font-bold text-minerax-dark text-xl leading-none">M</span>
-          </div>
-          <span className="font-display font-bold text-2xl text-white tracking-widest uppercase">
-            Minerax
-          </span>
+          <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
         </div>
 
         {/* Desktop Nav */}
