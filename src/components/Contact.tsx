@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Send, Mail, MapPin, Phone } from 'lucide-react';
 
 export function Contact() {

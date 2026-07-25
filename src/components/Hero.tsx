@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { ChevronRight, Settings } from 'lucide-react';
 import { GridBackground } from './ui/GridBackground';
 

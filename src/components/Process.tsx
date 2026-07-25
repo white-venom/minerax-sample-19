@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Layers, ThermometerSun, ScanFace, Combine } from 'lucide-react';
 
 const PROCESS_STEPS = [

@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Target, Scale, Beaker } from 'lucide-react';
 
 const SPECS = [
