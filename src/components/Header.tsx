@@ -5,6 +5,9 @@ import { useState, useEffect } from 'react';
 const NAV_LINKS = [
   { label: 'Specifications', href: '#specifications' },
   { label: 'Facilities', href: '#facilities' },
+  { label: 'Inspection', href: '#inspection' },
+  { label: 'Products', href: '#products' },
+  { label: 'Quality & Lab', href: '#quality' },
   { label: 'Process', href: '#process' },
   { label: 'Certifications', href: '#certifications' },
 ];
@@ -31,8 +34,12 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
+        <div className="flex items-center gap-3">
+          <img 
+            src="/logo.png" 
+            alt="Minerax Logo" 
+            className="h-10 w-auto object-contain filter invert drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] transition-all hover:scale-105" 
+          />
         </div>
 
         {/* Desktop Nav */}

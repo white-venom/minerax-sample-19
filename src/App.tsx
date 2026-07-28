@@ -7,6 +7,9 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Specifications } from './components/Specifications';
 import { FacilityShowcase } from './components/FacilityShowcase';
+import { InspectionSlider } from './components/InspectionSlider';
+import { ProductGallery } from './components/ProductGallery';
+import { QualityGallery } from './components/QualityGallery';
 import { Process } from './components/Process';
 import { Certifications } from './components/Certifications';
 import { Contact } from './components/Contact';
@@ -20,6 +23,9 @@ export default function App() {
         <Hero />
         <Specifications />
         <FacilityShowcase />
+        <InspectionSlider />
+        <ProductGallery />
+        <QualityGallery />
         <Process />
         <Certifications />
         <Contact />

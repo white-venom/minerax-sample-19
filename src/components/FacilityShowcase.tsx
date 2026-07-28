@@ -7,25 +7,25 @@ const IMAGES = [
     id: 1,
     title: 'Induction Furnaces',
     spec: 'Cap: 15,000 MT/Year',
-    url: '/assets/ai_asset_2.jpg'
+    url: '/assets/furnace_melting.png'
   },
   {
     id: 2,
     title: 'CNC Machining Center',
     spec: 'Tol: ±0.005mm',
-    url: '/assets/ai_asset_2.jpg'
+    url: '/assets/cnc_machining_lab.png'
   },
   {
     id: 3,
     title: 'Quality Lab / Spectrometry',
     spec: 'ISO 17025 Certified',
-    url: '/assets/ai_asset_2.jpg'
+    url: '/assets/quality_control_laser.png'
   },
   {
     id: 4,
-    title: 'Automated Sand Molding',
-    spec: 'Rate: 120 Molds/Hr',
-    url: '/assets/ai_asset_2.jpg'
+    title: 'Automated NDT & X-Ray Lab',
+    spec: '100% Volumetric Scanning',
+    url: '/assets/ndt_testing_facility.png'
   }
 ];
 
@@ -48,7 +48,7 @@ export function FacilityShowcase() {
           {IMAGES.map((img) => (
             <motion.div
               key={img.id}
-              className="relative aspect-[4/5] bg-minerax-dark overflow-hidden group cursor-pointer border border-white/10"
+              className="relative aspect-[4/5] bg-minerax-dark overflow-hidden group cursor-pointer border border-white/10 hover:border-blue-500/50 transition-colors"
               onMouseEnter={() => setHoveredId(img.id)}
               onMouseLeave={() => setHoveredId(null)}
               initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export function FacilityShowcase() {
             >
               {/* Image with zoom effect */}
               <div 
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110 mix-blend-luminosity opacity-40 group-hover:opacity-60"
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-110 opacity-75 group-hover:opacity-100"
                 style={{ backgroundImage: `url(${img.url})` }}
               />
               

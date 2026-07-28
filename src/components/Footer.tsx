@@ -3,10 +3,12 @@ export function Footer() {
     <footer className="bg-[#020408] border-t border-white/10 py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-white flex items-center justify-center rounded-sm">
-              <span className="font-display font-bold text-minerax-dark text-sm leading-none">M</span>
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/logo.png" 
+              alt="Minerax Logo" 
+              className="h-10 w-auto object-contain filter invert opacity-90 hover:opacity-100 transition-opacity" 
+            />
             <span className="font-display font-bold text-xl text-white tracking-widest uppercase">
               Minerax
             </span>
